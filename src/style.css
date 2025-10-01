@@ -1,4 +1,4 @@
 @import "tailwindcss";
-.first {
-  background-image: url(./img/1.jpeg);
+.slide{
+  transition: opacity 1s ease-in-out ;
 }
