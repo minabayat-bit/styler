@@ -28,8 +28,8 @@ btmPre.addEventListener("click", () => {
 setInterval(() => {
   const firstEl = document.querySelector(".first");
   firstEl.classList.remove("first");
-  if (currentEl.nextElementSibling) {
-    currentEl.nextElementSibling.classList.add("first");
+  if (firstEl.nextElementSibling) {
+    firstEl.nextElementSibling.classList.add("first");
   } else {
     slideEl[0].classList.add("first");
   }
